@@ -1,3 +1,4 @@
+! computes trapezoidal method
 program CompTrap
 implicit none
 double precision x0,xn,h,sum,f,exact,diff,xj
