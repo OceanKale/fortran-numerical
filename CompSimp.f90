@@ -1,3 +1,4 @@
+! computes using Simpson's method
 program CompSimp
 implicit none
 double precision x0,xn,x,h,Simp,exact,diff,f
