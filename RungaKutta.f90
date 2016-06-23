@@ -1,3 +1,5 @@
+! Runga-Kutta method
+
 program RK4
 implicit none
 double precision h,w,exact,diff,f,a,b,alpha,t,k1,k2,k3,k4
