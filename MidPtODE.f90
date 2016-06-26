@@ -18,7 +18,7 @@ write(8,*) t,y
 write(*,*) h
 do i=1,n
 	y=y+ h/2.d0*(f(t,y)+f(t+h,y+h*f(t,y)))
-	write(*,*)'YYYYYYY=', y
+	write(*,*)'Y=', y
 	t=a + i*h
 	write(8,*) t,y,g(t),'error:', dabs(y - g(t))
 enddo
